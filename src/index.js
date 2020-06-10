@@ -24,7 +24,8 @@ const main = () => {
 
   // do something when registration is successful
   $(document).on("webauthn-register-success", () => {
-    window.location = "https://example.com/sign-in-page";
+    alert('register success')
+    // window.location = "https://example.com/sign-in-page";
   });
 
   // do something when registration fails
@@ -36,7 +37,8 @@ const main = () => {
 
   // do something when log in is successful
   $(document).on("webauthn-login-success", () => {
-    window.location = "https://example.com/my-profile-page";
+    alert('login success')
+    // window.location = "https://example.com/my-profile-page";
   });
 
   // do something when log in fails
