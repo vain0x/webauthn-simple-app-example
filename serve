@@ -1,0 +1,5 @@
+#!/bin/bash
+
+$(npm bin)/webpack --mode development --watch &
+$(npm bin)/webpack-dev-server --mode development --watch &
+wait
